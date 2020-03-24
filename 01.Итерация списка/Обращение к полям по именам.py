@@ -7,3 +7,6 @@ kab625 = ['samsung', 4200, 54000]
 MODEL, SERIES, C = range(3)
 print(kab625[MODEL])
 
+# Недостаток , idex не вернет наименование переменной
+print(kab627.index(1030))
+
