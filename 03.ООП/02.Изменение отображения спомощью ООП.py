@@ -3,7 +3,7 @@ class Printers:
         self.brand = brand
         self.model = model
         self.number = number
-
+    # Переопределение метода __str__
     def __str__(self):
         return '<%s => %s %s>' % (self.__class__.__name__, self.brand, self.model)
 
