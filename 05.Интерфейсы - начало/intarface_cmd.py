@@ -1,6 +1,6 @@
 import shelve
 
-fieldnames = ('brand', 'model', 'number')
+fieldnames = ('brand', 'model', 'number', 'company')
 print(fieldnames)
 maxfield = max(len(f) for f in fieldnames)
 db = shelve.open('class-shelve')
@@ -16,3 +16,5 @@ while True:
     else:
         for field in fieldnames:
             print(field.ljust(maxfield), '=>', getattr(record, field))
+
+db.close()
