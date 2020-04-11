@@ -7,6 +7,8 @@
 from tkinter import *
 from tkinter.messagebox import showerror
 import shelve
+
+
 shelvename = 'class-shelve'
 fieldnames = ('brand', 'model', 'number', 'company')
 
@@ -24,6 +26,7 @@ def makeWidgets():
         lab.grid(row=ix, column=0)
         ent.grid(row=ix, column=1)
         entries[label] = ent
+        # print(entries)
     Button(window, text='Fetch', command=fetchRecord).pack(side=LEFT)
     Button(window, text='Update', command=updateRecord).pack(side=LEFT)
     Button(window, text='Quit', command=window.quit).pack(side=RIGHT)
@@ -32,6 +35,7 @@ def makeWidgets():
 
 def fetchRecord():
     key = entries['key'].get()
+    # print(key)
     try:
         record = db[key]
     except:
