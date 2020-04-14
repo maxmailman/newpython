@@ -18,8 +18,8 @@ replyhtml = """
     $ROWS$
     </table>
     <p>
-    input type=submit value=Fetch name=action>
-    <input type=submit value=Update name=action>
+    <input type=submit value="Fetch", name=action>
+    <input type=submit value="Update", name=action>
 </form>
 </body></html>
 """
