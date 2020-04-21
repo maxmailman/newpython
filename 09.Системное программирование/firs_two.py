@@ -12,3 +12,4 @@ def more(text, numlines=15):
 if __name__ == '__main__':
     import sys
     more(open(sys.argv[1]).read(), 10)
+    # 138 страница
