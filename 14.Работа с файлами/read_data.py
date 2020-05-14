@@ -12,6 +12,9 @@ print(file.readline()) # Читаем первую строку
 print(file.readline())
 print(file.readline()) # Конец файла - пустая строка
 
+for line in open('data2.txt'):
+    print(line, end='')
+
 
 
 
