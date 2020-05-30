@@ -16,6 +16,10 @@
       <sourceFolder url="file://$MODULE_DIR$/10.Работа с файлами" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/11.Администрирование" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/12.Сценарии" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/13.Потоки ввода-вывода" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/14.Работа с файлами" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/16.Ветвление процессов" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/17._trhead" isTestSource="false" />
       <excludeFolder url="file://$MODULE_DIR$/venv" />
     </content>
     <orderEntry type="jdk" jdkName="Python 3.7" jdkType="Python SDK" />
